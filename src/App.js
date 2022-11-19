@@ -1,24 +1,25 @@
-import { Configuration, OpenAIApi } from 'openai'
 import React from 'react'
 import { useState } from 'react'
+import { Configuration, OpenAIApi } from 'openai'
 import './App.css'
 
 function App() {
 	const [userPrompt, setPrompt] = useState('')
 	const [result, setResult] = useState('')
+	const api_key = process.env.REACT_APP_OPENAI_API_KEY
 	const configuration = new Configuration({
-		apiKey: process.env.OPENAI_API_KEY,
+		apiKey: api_key,
 	})
-
 	const openai = new OpenAIApi(configuration)
-
+	console.log(api_key)
 	const generateImage = async () => {
-		const res = await openai.createImage({
+		const imageParameters = {
 			prompt: userPrompt,
 			n: 1,
-			size: '512x512',
-		})
-		setResult(res.data.data[0].url)
+			size: '256x256',
+		}
+		const response = await openai.createImage(imageParameters)
+		setResult(response.data.data[0].url)
 	}
 
 	return (
@@ -28,7 +29,7 @@ function App() {
 
 				<textarea
 					className='app-input'
-					placeholder='Search Bears with Paint Brushes the Starry Night, painted by Vincent Van Gogh..'
+					placeholder='Search Bears with Paint Brushes and the Starry Night painted by Vincent Van Gogh..'
 					onChange={(e) => setPrompt(e.target.value)}
 					rows='10'
 					cols='40'
@@ -40,7 +41,6 @@ function App() {
 					<></>
 				)}
 			</>
-			)
 		</div>
 	)
 }
