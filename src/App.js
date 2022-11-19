@@ -1,10 +1,10 @@
 import { Configuration, OpenAIApi } from 'openai'
-
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
 
 function App() {
-	const [prompt, setPrompt] = useState('')
+	const [userPrompt, setPrompt] = useState('')
 	const [result, setResult] = useState('')
 	const configuration = new Configuration({
 		apiKey: process.env.OPENAI_API_KEY,
@@ -14,7 +14,7 @@ function App() {
 
 	const generateImage = async () => {
 		const res = await openai.createImage({
-			prompt: prompt,
+			prompt: userPrompt,
 			n: 1,
 			size: '512x512',
 		})
