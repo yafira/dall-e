@@ -1,8 +1,15 @@
+import { Config, OpenAI_API } from 'openai'
+
 import { useState } from 'react'
 import './App.css'
 
 function App() {
 	const [prompt, setPrompt] = useState('')
+	const configuration = new Config({
+		apiKey: import.meta.env.OpenAI_API,
+	})
+
+	const openai = new OpenAI_API(configuration)
 
 	const generateImage = async () => {}
 
