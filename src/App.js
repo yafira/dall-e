@@ -6,7 +6,7 @@ import './style.css'
 function App() {
 	const [userPrompt, setPrompt] = useState('')
 	const [result, setResult] = useState('')
-	const api_key = process.env.REACT_APP_OPENAI_KEY
+	const api_key = process.env.REACT_APP_OPENAI_API_KEY
 	const configuration = new Configuration({
 		apiKey: api_key,
 	})
