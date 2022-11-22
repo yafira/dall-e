@@ -17,7 +17,7 @@ function App() {
 		const response = await openai.createImage({
 			prompt: userPrompt,
 			n: 1,
-			size: '256x256',
+			size: '512x512',
 		})
 		setResult(response.data.data[0].url)
 	}
@@ -25,11 +25,11 @@ function App() {
 	return (
 		<div className='app-main'>
 			<>
-				<h2>Generate an Image using Open AI API</h2>
+				<h2>Generate an Image using Dall-E API</h2>
 
 				<textarea
 					className='app-input'
-					placeholder='Search Bears with Paint Brushes and the Starry Night painted by Vincent Van Gogh..'
+					placeholder='bears with cotton candy in starry night'
 					onChange={(e) => setPrompt(e.target.value)}
 					rows='10'
 					cols='40'
