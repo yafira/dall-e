@@ -1,2 +1,2 @@
-- [] add loading effect
-- [] customize frame/border
+- [ ] add loading effect
+- [ ] customize frame/border
