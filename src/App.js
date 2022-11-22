@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
-import './App.css'
+import './style.css'
 
 function App() {
 	const [userPrompt, setPrompt] = useState('')
@@ -26,7 +26,6 @@ function App() {
 		<div className='app-main'>
 			<>
 				<h2>Generate an Image using Dall-E API</h2>
-
 				<textarea
 					className='app-input'
 					placeholder='bears with cotton candy in starry night'
@@ -34,7 +33,12 @@ function App() {
 					rows='10'
 					cols='40'
 				/>
-				<button onClick={generateImage}>Generate an Image</button>
+				<button className='clay' onClick={generateImage}>
+					generate an image
+					<span type='img' alt='aria-label'>
+						{' 🎨'}
+					</span>
+				</button>
 				{result.length > 0 ? (
 					<img className='result-image' src={result} alt='result' />
 				) : (
