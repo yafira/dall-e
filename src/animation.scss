@@ -4,6 +4,7 @@ $duration: 1.4s;
 
 .spinner {
 	animation: rotator $duration linear infinite;
+	margin: 100px;
 }
 
 @keyframes rotator {
