@@ -5,9 +5,11 @@
 	margin: 0 auto;
 	padding: 3rem;
 	text-align: center;
+	justify-items: center;
 }
 
 body {
+	display: flex;
 	background-color: rgb(254, 255, 232);
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
 import './style.css'
+import './animation.scss'
 
 function App() {
 	const [userPrompt, setPrompt] = useState('')
@@ -32,8 +33,23 @@ function App() {
 				<>
 					<h2>Generating in effect...</h2>
 					<div class='spinner'>
-						<div></div>
-						<div></div>
+						<svg
+							class='spinner'
+							width='65px'
+							height='65px'
+							viewBox='0 0 66 66'
+							xmlns='http://www.w3.org/2000/svg'
+						>
+							<circle
+								class='path'
+								fill='none'
+								stroke-width='6'
+								stroke-linecap='round'
+								cx='33'
+								cy='33'
+								r='30'
+							></circle>
+						</svg>
 					</div>
 				</>
 			) : (
