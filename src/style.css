@@ -73,8 +73,8 @@ button:active {
 }
 
 @media (max-width: 440px) {
-	body {
+	#root {
+		margin: 0px;
 		padding: 0px;
-		font-size: 26px;
 	}
 }

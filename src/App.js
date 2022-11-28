@@ -43,8 +43,8 @@ function App() {
 							<circle
 								className='path'
 								fill='none'
-								stroke-width='6'
-								stroke-linecap='round'
+								strokeWidth='6'
+								strokeLinecap='round'
 								cx='33'
 								cy='33'
 								r='30'
