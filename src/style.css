@@ -73,8 +73,19 @@ button:active {
 }
 
 @media (max-width: 440px) {
-	#root {
+	#root,
+	.app-main,
+	.app-input {
 		margin: 0px;
 		padding: 0px;
+	}
+
+	.app-input,
+	#root {
+		width: 100%;
+	}
+
+	#root {
+		padding: 20px;
 	}
 }
