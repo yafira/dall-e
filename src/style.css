@@ -67,7 +67,14 @@ button:active {
 }
 
 .result-image {
-	margin-top: 50px;
+	margin-top: 75px;
 	width: 350px;
 	border: 40px solid rgb(218, 216, 234);
+}
+
+@media (max-width: 440px) {
+	body {
+		padding: 0px;
+		font-size: 26px;
+	}
 }

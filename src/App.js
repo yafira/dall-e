@@ -32,16 +32,16 @@ function App() {
 			{loading ? (
 				<>
 					<h2>Generating in effect...</h2>
-					<div class='spinner'>
+					<div className='spinner'>
 						<svg
-							class='spinner'
+							className='spinner'
 							width='65px'
 							height='65px'
 							viewBox='0 0 66 66'
 							xmlns='http://www.w3.org/2000/svg'
 						>
 							<circle
-								class='path'
+								className='path'
 								fill='none'
 								stroke-width='6'
 								stroke-linecap='round'
