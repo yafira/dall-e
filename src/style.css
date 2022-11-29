@@ -48,6 +48,7 @@ h2 {
 
 ::placeholder {
 	color: rgb(157, 156, 156);
+	padding: 2px;
 }
 
 button {
