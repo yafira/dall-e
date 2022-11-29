@@ -54,7 +54,8 @@ button {
 	letter-spacing: 1px;
 	display: block;
 	border-width: 0;
-	font-size: 18px;
+	font-size: 16px;
+	color: black;
 	padding: 1.5rem 2rem;
 	cursor: pointer;
 	transition: 0.25s ease;
