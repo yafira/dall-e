@@ -57,7 +57,7 @@ function App() {
 					<h2>Generate an Image using Dall-E API</h2>
 					<textarea
 						className='app-input'
-						placeholder='bears with cotton candy in starry night'
+						placeholder='bears in space'
 						onChange={(e) => setPrompt(e.target.value)}
 						rows='10'
 						cols='40'
