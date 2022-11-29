@@ -8,14 +8,26 @@
 	justify-items: center;
 }
 
+html {
+	min-height: 100%;
+}
+
 body {
 	display: flex;
-	background-color: rgb(254, 255, 232);
+	/* background-color: rgb(254, 255, 232); */
+	background: rgb(174, 169, 255);
+	background: radial-gradient(
+		circle,
+		rgba(174, 169, 255, 1) 0%,
+		rgba(233, 204, 242, 1) 35%,
+		rgba(240, 245, 195, 1) 100%
+	);
+	background-repeat: inherit;
 }
 
 h2 {
 	font-family: 'IBM Plex Mono', monospace;
-	color: rgb(188, 185, 248);
+	color: rgb(114, 109, 216);
 	font-size: 30px;
 }
 
@@ -28,10 +40,14 @@ h2 {
 .app-input {
 	height: 55px;
 	margin: 30px;
-	border: 2px solid rgb(255, 172, 251);
+	border: 2px solid rgb(162, 190, 251);
 	padding: 10px;
 	font-size: 14px;
 	font-family: 'IBM Plex Mono', monospace;
+}
+
+::placeholder {
+	color: rgb(157, 156, 156);
 }
 
 button {
@@ -69,7 +85,7 @@ button:active {
 .result-image {
 	margin-top: 75px;
 	width: 350px;
-	border: 5px solid rgb(236, 0, 248);
+	border: 5px solid rgb(105, 220, 237);
 }
 
 @media (max-width: 440px) {
