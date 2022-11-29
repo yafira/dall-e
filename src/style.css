@@ -109,6 +109,10 @@ button:active {
 		padding: 1rem;
 	}
 
+	::placeholder {
+		padding: 6px;
+	}
+
 	button {
 		margin-top: 30px;
 	}
