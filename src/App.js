@@ -8,10 +8,15 @@ function App() {
 	const [userPrompt, setPrompt] = useState('')
 	const [result, setResult] = useState('')
 	const [loading, setLoading] = useState(false)
+	const [valid, setValid] = useState(false)
 
 	const handleChange = (e) => {
-		setPrompt(e.target.value)
-		// console.log(e.target.value)
+		const text = e.target.value
+		setPrompt(text)
+
+		if (!text.trim()) return setValid(false)
+		if (!text.match(/^[a-zA-Z]+$/)) return setValid(false)
+		setValid(true)
 	}
 	const api_key =
 		process.env.REACT_APP_OPENAI_API_KEY || process.env.OPENAI_API_KEY
@@ -19,6 +24,7 @@ function App() {
 		apiKey: api_key,
 	})
 	const openai = new OpenAIApi(configuration)
+
 	console.log(api_key)
 
 	const generateImage = async () => {
@@ -31,7 +37,6 @@ function App() {
 		setLoading(false)
 		setResult(response.data.data[0].url)
 	}
-
 	return (
 		<div className='app-main'>
 			{loading ? (
@@ -68,7 +73,7 @@ function App() {
 						rows='10'
 						cols='40'
 					/>
-					<button className='clay' onClick={generateImage}>
+					<button className='clay' onClick={generateImage} disabled={!valid}>
 						generate an image
 						<span type='img' alt='aria-label'>
 							{' 🎨'}
