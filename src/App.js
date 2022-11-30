@@ -8,6 +8,12 @@ function App() {
 	const [userPrompt, setPrompt] = useState('')
 	const [result, setResult] = useState('')
 	const [loading, setLoading] = useState(false)
+
+	const handleText = (e) => {
+		// 👇️ update textarea value
+		setPrompt(e.target.value)
+		console.log(e.target.value)
+	}
 	const api_key =
 		process.env.REACT_APP_OPENAI_API_KEY || process.env.OPENAI_API_KEY
 	const configuration = new Configuration({
@@ -58,7 +64,8 @@ function App() {
 					<textarea
 						className='app-input'
 						placeholder='bears in space'
-						onChange={(e) => setPrompt(e.target.value)}
+						value={userPrompt}
+						onChange={handleText}
 						rows='10'
 						cols='40'
 					/>
