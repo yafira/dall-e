@@ -15,7 +15,7 @@ function App() {
 		setPrompt(text)
 
 		if (!text.trim()) return setValid(false)
-		if (!text.match(/^[a-zA-Z]+$/)) return setValid(false)
+		if (!text.match(/^[aA-zZ\s]+$/)) return setValid(false)
 		setValid(true)
 	}
 	const api_key =
