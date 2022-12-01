@@ -56,10 +56,17 @@ button {
 	display: block;
 	border-width: 0;
 	font-size: 16px;
-	color: black;
+	color: #000000;
 	padding: 1.5rem 2rem;
 	cursor: pointer;
 	transition: 0.25s ease;
+}
+
+button:disabled,
+button[disabled] {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
 }
 
 .clay {
