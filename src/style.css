@@ -25,10 +25,18 @@ body {
 	background-repeat: inherit;
 }
 
+h1 {
+	font-family: 'Space Grotesk', sans-serif;
+	color: rgb(114, 109, 216);
+	font-size: 55px;
+	font-weight: 300;
+}
+
 h2 {
 	font-family: 'IBM Plex Mono', monospace;
 	color: rgb(114, 109, 216);
-	font-size: 30px;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .app-main {

@@ -24,8 +24,7 @@ function App() {
 		apiKey: api_key,
 	})
 	const openai = new OpenAIApi(configuration)
-
-	console.log(api_key)
+	// console.log(api_key)
 
 	const generateImage = async () => {
 		setLoading(true)
@@ -64,6 +63,7 @@ function App() {
 				</>
 			) : (
 				<>
+					<h1>Salvador Dall-E</h1>
 					<h2>Generate an Image using Dall-E API</h2>
 					<textarea
 						className='app-input'
