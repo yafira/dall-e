@@ -116,8 +116,12 @@ button:active {
 	#root,
 	.app-input {
 		margin: 0px;
-		padding: 0px;
+		/* padding: 0px; */
 		width: 100%;
+	}
+
+	.app-input {
+		padding: 6px;
 	}
 
 	body {
