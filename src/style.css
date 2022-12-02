@@ -124,6 +124,10 @@ button:active {
 		padding: 1rem;
 	}
 
+	h2 {
+		font-size: smaller;
+	}
+
 	::placeholder {
 		padding: 6px;
 	}
