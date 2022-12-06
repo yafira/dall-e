@@ -128,9 +128,13 @@ button:active {
 		padding: 1rem;
 	}
 
-	h1,
+	h1 {
+		font-size: 28px;
+	}
+
 	h2 {
 		font-size: smaller;
+		margin-top: 25px;
 	}
 
 	::placeholder {
