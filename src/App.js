@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
 import './style.css'
-import './animation.scss'
+import './loader.scss'
 
 function App() {
 	const [userPrompt, setPrompt] = useState('')
@@ -42,6 +42,9 @@ function App() {
 				<>
 					<h2>Generating in effect...</h2>
 					<div className='spinner'>
+						<div className='div'>
+							<div></div>
+						</div>
 						<svg
 							className='spinner'
 							width='65px'
