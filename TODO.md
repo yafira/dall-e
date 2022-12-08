@@ -1,4 +1,3 @@
 - [x] add loading effect
 - [x] add style to disabled button
 - [x] customize frame/border
-- [ ] add alert when not entering correct text
