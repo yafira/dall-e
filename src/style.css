@@ -6,6 +6,7 @@
 	padding: 3rem;
 	text-align: center;
 	justify-items: center;
+	cursor: pointer;
 }
 
 html {
@@ -59,6 +60,12 @@ h2 {
 	padding: 2px;
 }
 
+.result-image {
+	margin-top: 75px;
+	width: 350px;
+	border: 20px inset rgb(214, 189, 250);
+}
+
 button {
 	letter-spacing: 1px;
 	display: block;
@@ -97,12 +104,6 @@ button:active {
 
 .clay:active {
 	transform: scale(0.98) translate3d(0, 0, 0);
-}
-
-.result-image {
-	margin-top: 75px;
-	width: 350px;
-	border: 20px inset rgb(214, 189, 250);
 }
 
 /* Outer animation */
