@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import { Configuration, OpenAIApi } from 'openai'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import './style.css'
 import './loader.scss'
 
@@ -83,7 +85,12 @@ function App() {
 						</span>
 					</button>
 					{result.length > 0 ? (
-						<img className='result-image' src={result} alt='result' />
+						<LazyLoadImage
+							className='result-image'
+							src={result}
+							alt='image result'
+							effect='blur'
+						/>
 					) : (
 						<></>
 					)}
