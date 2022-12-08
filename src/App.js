@@ -5,6 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import './style.css'
 import './loader.scss'
+import './queries.css'
 
 function App() {
 	const [userPrompt, setPrompt] = useState('')

@@ -1,0 +1,45 @@
+/* Media Queries */
+@media (max-width: 440px) {
+	#root,
+	.app-main {
+		padding-top: 50px;
+		margin: 0px;
+		width: 100%;
+	}
+
+	#root,
+	.app-input {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.app-input {
+		padding: 6px;
+	}
+
+	body {
+		padding: 1rem;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: smaller;
+		margin-top: 25px;
+	}
+
+	::placeholder {
+		padding: 6px;
+	}
+
+	button {
+		margin-top: 30px;
+	}
+
+	result-image {
+		padding: 0px;
+	}
+}
