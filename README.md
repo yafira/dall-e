@@ -2,9 +2,9 @@
 
 ## Fun facts:
 
-#### ✦ DALL·E 2 is a new AI system that can create realistic images and art from a description in natural language.
+✦ DALL·E 2 is a new AI system that can create realistic images and art from a description in natural language.
 
-#### ✦ DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.
+✦ DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.
 
 ##### ⭒ More about [Dall-E 2](https://openai.com/dall-e-2/)
 
