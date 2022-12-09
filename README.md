@@ -35,3 +35,7 @@
 - Click button to generate the magic!
 
 ---
+
+![gif](sdalle.gif)
+
+Check out the live demo [here!](salvador-dall-e.vercel.app/)
