@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Salvador Dall-E, A Image Generator App using React and Dall-E 2 API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Fun facts:
 
-## Available Scripts
+### ✴ DALL·E 2 is a new AI system that can create realistic images and art from a description in natural language.
 
-In the project directory, you can run:
+### ✴ DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3><b>Requirements:</b></h3>
+- Access to OpenAI
+    - create an OpenAI API account
+    - generate an API key
+- Install openai npm package
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+<h3><b>Objectives:</b></h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Creating realistic images and art with user input from natural language descriptions.
 
-### `npm run build`
+- Use the React library to create the User Interface as it would handle the updating of the DOM as required.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Install and learn to use npm packages such as:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        ✧ react-lazy-load: An easy-to-use React component which helps you defer loading content in predictable way.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        ✧ openai: The OpenAI Node.js library provides convenient access to the OpenAI API from Node.js applications. Most of the code in this library is generated from our OpenAPI specification.
 
-### `npm run eject`
+<h3><b>Usage:</b></h3>
+- Query anything in the input text field, e.g. 'Bears in space'<br>
+- Click button to generate the magic!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
