@@ -6,6 +6,8 @@
 
 #### ✦ DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.
 
+##### ⭒ More about [Dall-E 2](https://openai.com/dall-e-2/)
+
 ---
 
 <h3><b>Requirements:</b></h3>
