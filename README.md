@@ -1,4 +1,4 @@
-# Salvador Dall-E, A Image Generator App using React and Dall-E 2 API
+# Salvador Dall·E, A Image Generator App using React and DALL·E 2 API
 
 ## Fun facts:
 
@@ -6,7 +6,7 @@
 
 ✦ DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs.
 
-##### ⭒ More about [Dall-E 2](https://openai.com/dall-e-2/)
+##### ⭒ More about [DALL·E 2](https://openai.com/dall-e-2/)
 
 ---
 
