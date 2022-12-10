@@ -69,8 +69,8 @@ function App() {
 				</>
 			) : (
 				<>
-					<h1>Salvador Dall-E</h1>
-					<h2>Generate an Image using Dall-E API</h2>
+					<h1>Salvador DALL·E</h1>
+					<h2>Generate an Image using DALL·E 2 API</h2>
 					<textarea
 						className='app-input'
 						placeholder='bears in space'
