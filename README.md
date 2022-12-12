@@ -1,4 +1,4 @@
-# Salvador Dall·E, A Image Generator App using React and DALL·E 2 API
+# Salvador Dall·E, A Image Generator using React and DALL·E 2 API
 
 ## Fun facts:
 
@@ -38,4 +38,4 @@
 
 ![gif](sdalle.gif)
 
-Check out the live demo [here!](https://salvador-dall-e.vercel.app/)
+Check out the live demo for the app [here!](https://salvador-dall-e.vercel.app/)
