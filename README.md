@@ -38,4 +38,16 @@
 
 ![gif](sdalle.gif)
 
+<h3><b>Sample input:</b></h3>
+
+![image](images/sample01.png)
+![image](images/sample02.png)
+![image](images/sample03.png)
+
+<h3><b>Sample images:</b></h3>
+
+![image](images/sample04.png)
+![image](images/sample05.png)
+![image](images/sample06.png)
+
 Check out the live demo for the app [here!](https://salvador-dall-e.vercel.app/)
