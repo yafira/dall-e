@@ -95,11 +95,11 @@ button[disabled] {
 }
 
 button:hover {
-	background-color: #a9b6ec;
+	background-color: #b2b0ef;
 }
 
 button:active {
-	background-color: #6374b8;
+	background-color: #6d7ec0;
 }
 
 .clay:active {
