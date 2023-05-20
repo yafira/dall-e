@@ -50,4 +50,4 @@
 ![image](images/sample05.png)
 ![image](images/sample06.png)
 
-Check out the live demo for the app [here!](https://salvador-dall-e.vercel.app/)
+Check out the live demo for the app [here!](https://salvadordalle.vercel.app/)
