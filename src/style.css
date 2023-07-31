@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
 
+* {
+	cursor: url('../assets/brush.png'), pointer;
+}
+
 #root {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 3rem;
 	text-align: center;
 	justify-items: center;
-	cursor: pointer;
 }
 
 html {
