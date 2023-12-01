@@ -1,4 +1,4 @@
-# Salvador Dall·E, A Image Generator using React and DALL·E 2 API
+# 🖼️ Salvador Dall·E, A Image Generator using React and DALL·E 2 API
 
 ## Fun facts:
 
